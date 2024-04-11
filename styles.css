@@ -2,20 +2,54 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: grey;
+    background-color: #1F2937;
+    color: white;
 }
 
 .logo {
     padding: 10px;
-    border-style: dotted;
-    margin-left: 150px;
+    margin-left: 100px;
+    font-size: 18px;
 }
 
 .links {
     display: flex;
-    margin-right: 150px;
+    margin-right: 100px;
+    
 }
 
 .linkitem {
     padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first-section {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.first-section-text {
+    flex-direction: column;
+}
+
+.signup-btn {
+    background-color: #3882F6;
+    display: block;
+    border-radius: 8%;
+    border: 0px;
+}
+
+.paragraph {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.paragraph-small {
+    color: #E5E7EB;
+    font-size: 18px;
+
 }
